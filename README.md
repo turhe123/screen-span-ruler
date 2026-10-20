@@ -1,5 +1,7 @@
 # ScreenSpanRuler
 
+**🌐 Website:** [turhe123.github.io/screen-span-ruler](https://turhe123.github.io/screen-span-ruler/)
+
 Measure distances and gaps between any elements on screen in pixels using automatic edge detection.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,13 @@ ScreenSpanRuler is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="ScreenSpanRuler menu bar panel" width="720"></p>
+
+<p align="center"><em>The ScreenSpanRuler menu bar panel, with the Screen Recording access button, a Points/Pixels unit toggle, an edge tolerance slider, and links to Settings and Support.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ScreenSpanRuler Settings window" width="560"></p>
+
+<p align="center"><em>The Settings window, where you record the measure hotkey (⇧⌘2 by default), choose the default unit, adjust edge tolerance and turn on launch at login.</em></p>
 
 ## Install
 

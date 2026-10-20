@@ -1,0 +1,60 @@
+{
+  "seo_title": "Edge-snapping screen ruler for macOS",
+  "seo_description": "Free, open-source macOS menu bar ruler. Press a hotkey, and measure gaps and sizes in pixels with automatic edge detection. No accounts, no network.",
+  "hero_title_line1": "Measure anything",
+  "hero_title_accent": "on your screen.",
+  "hero_sub": "ScreenSpanRuler freezes your display and snaps measurement lines to the nearest edges. Press ⇧⌘2, move the pointer, and read the gap in pixels or points.",
+  "features_title": "Precise measuring, nothing extra.",
+  "features_sub": "A small menu bar utility that does one job: tell you exactly how big things are and how far apart they sit.",
+  "features": [
+    {
+      "icon": "cursor",
+      "title": "Automatic edge detection",
+      "desc": "Horizontal and vertical lines extend from the pointer until they hit a color change, with the distance shown in a label on each line."
+    },
+    {
+      "icon": "display",
+      "title": "Drag to measure a box",
+      "desc": "Drag a rectangle and it shrinks to fit the content inside, then shows its width and height."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Keyboard-driven control",
+      "desc": "Hold Shift to lock to one axis, use the arrow keys to nudge by one pixel, press U to switch units and C to copy the measurement. Esc exits."
+    },
+    {
+      "icon": "sliders",
+      "title": "Adjustable edge tolerance",
+      "desc": "Set sensitivity from 0 to 30. At higher values, pixels are compared with their neighbor so smooth gradients do not stop the scan."
+    },
+    {
+      "icon": "image",
+      "title": "Points or true pixels",
+      "desc": "Each display is captured at native resolution and converted with its own scale factor, so Retina and mixed-display setups read correctly."
+    },
+    {
+      "icon": "lock",
+      "title": "Private by design",
+      "desc": "No network access, no analytics and no third-party dependencies. Captured screenshots are released from memory when you exit."
+    }
+  ],
+  "permissions_step": "When prompted, grant Screen Recording in System Settings → Privacy & Security, then relaunch the app.",
+  "faq": [
+    {
+      "q": "Is ScreenSpanRuler really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or paywalled features. If it saves you time, an optional Ko-fi donation is welcome."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Screen Recording is required so the app can take a one-time screenshot of each display and detect edges. Notifications are optional and only used if a capture fails. It does not ask for Accessibility or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only your preferences (hotkey, default unit, tolerance, launch at login) are saved locally on your Mac. Screenshots are held in memory while measuring and released when you press Esc. Nothing is sent over the network."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}
